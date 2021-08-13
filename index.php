@@ -16,25 +16,25 @@
 
     <title>Gerador de senha padrão openLDAP</title>
 
-    <link rel="1cta" href="https://intranet.1cta.eb.mil.br/vpn">
+    <link rel="1cta" href="#">
 
     <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css" ></script>
     <script>
-    function myCopy(element) {
-        var copyText = document.getElementById(element);
+      function myCopy(element) {
+          var copyText = document.getElementById(element);
 
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
-        document.execCommand("copy");
+          document.execCommand("copy");
 
-        //alert("Copied the text: " + copyText.value);
-      var alertList = document.querySelectorAll('.alert')
-      alertList.forEach(function (alert) {
-        alert.style.display = 'block';
-      })
-    }
+          //alert("Copied the text: " + copyText.value);
+          var alertList = document.querySelectorAll('.alert')
+          alertList.forEach(function (alert) {
+            alert.style.display = 'block';
+          })
+      }
     </script>
   </head>
   <body class="text-center">
@@ -94,7 +94,7 @@
   }
 ?>
       <div class="alert alert-warning alert-dismissible fade show" role="alert" style="display:none;margin-top:5em;">
-          <strong>Copiado!</strong> A Hash gerada foi copiada para a Ã¡rea de transferÃªncia.
+          <strong>Copiado!</strong> A Hash gerada foi copiada para a Área de transferência.
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
 
